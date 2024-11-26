@@ -1,0 +1,74 @@
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h3{
+    color: #b92b27;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+}
+
+.upvt{
+    background-color: antiquewhite;
+    color: chocolate;
+}
+
+/* descendant selector */
+.post a {
+    color: blueviolet;
+    background-color: #f6ee5f;
+}
+
+nav ul li a {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+p + h3 {
+    text-decoration: overline;
+}
+
+input[type="text"] {
+    color: blue;
+}
+
+input[type="password"]{
+    color: blue;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+button:active{
+    background-color: palevioletred;
+}
+
+p:active{
+ font-weight: bold;
+ color: greenyellow;
+}
+
+div:nth-of-type(2n){
+    background-color: antiquewhite;
+}
+
+h1::first-letter{
+    color: green;
+
+}
+
+p::selection{
+    background-color: #f6ee5f;
+}

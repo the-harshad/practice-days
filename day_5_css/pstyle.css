@@ -1,0 +1,19 @@
+/* ** practice qs css ** */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #1b72e4;
+}
+
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+
+.userbtn{
+    background-color: aqua;
+
+} 
