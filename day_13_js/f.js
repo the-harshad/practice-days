@@ -87,14 +87,14 @@ console.log(ans);
 let anss= arr.slice(arr.length-n);
 console.log(anss);
 
-let strr = prompt("please enter a string...")
+// let strr = prompt("please enter a string...")
 
-if(strr.length == 0){
-    console.log("string is empty !!")
-}
-else{
-    console.log("string is not empty !!")
-}
+// if(strr.length == 0){
+//     console.log("string is empty !!")
+// }
+// else{
+//     console.log("string is not empty !!")
+// }
 
 
 let sttr = "ApNaCoLlEgE";
@@ -108,4 +108,20 @@ if(sttr[idx]==sttr[idx].toLowerCase())
      {
         console.log("character is not lowercase");
      }
+
+     let sstr = prompt("please enter a string");
+     console.log(`original string = ${sstr}`);
+     console.log(`string without spaces = ${sstr.trim()} `);
+
+     let aarr = ["hello",'a',23,64,99,-6];
+     
+     let item = 654;
+
+     if(aarr.indexOf(item) != -1) {
+        console.log("element exists in array");
+    } else {
+        console.log("element doesn't exist in array");
+           }
+
+// assignment - 4
 
