@@ -122,6 +122,3 @@ if(sttr[idx]==sttr[idx].toLowerCase())
     } else {
         console.log("element doesn't exist in array");
            }
-
-// assignment - 4
-
